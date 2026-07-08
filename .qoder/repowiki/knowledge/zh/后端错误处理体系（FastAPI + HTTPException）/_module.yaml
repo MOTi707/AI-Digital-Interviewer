@@ -1,0 +1,10 @@
+schema_version: 1
+module_path: error_handling
+title: 后端错误处理体系（FastAPI + HTTPException）
+scope: []
+source_files:
+    - backEnd/app/main.py
+    - backEnd/app/dependencies.py
+    - backEnd/app/database.py
+depends_on: []
+related_to: []

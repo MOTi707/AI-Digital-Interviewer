@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: frontend_app/resume_optimize
+title: 简历上传、分析与措辞优化前端页面
+scope:
+    - frontEnd/src/views/ResumeView.vue
+    - frontEnd/src/views/ResumeOptimizeView.vue
+    - frontEnd/src/stores/resume.ts
+source_files: []
+depends_on: []
+related_to:
+    - path: backend_api/resume_management
+    - path: backend_api/tts_service

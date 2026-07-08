@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: backend_api/posts_forum
+title: 面经论坛帖子与评论 API
+scope:
+    - backEnd/app/routers/post.py
+    - backEnd/app/services/post_service.py
+    - backEnd/app/schemas/post.py
+source_files: []
+depends_on: []
+related_to:
+    - path: frontend_app/auth_profile_dashboard

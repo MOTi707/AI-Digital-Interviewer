@@ -1,0 +1,18 @@
+schema_version: 1
+module_path: frontend_app/auth_profile_dashboard
+title: 认证、个人资料与仪表盘入口视图
+scope:
+    - frontEnd/src/views/AuthView.vue
+    - frontEnd/src/views/ProfileView.vue
+    - frontEnd/src/views/AccountSettingsView.vue
+    - frontEnd/src/views/DashboardView.vue
+    - frontEnd/src/views/HomeView.vue
+    - frontEnd/src/stores/auth.ts
+    - frontEnd/src/stores/app.ts
+source_files: []
+depends_on: []
+related_to:
+    - path: backend_api/admin_panel
+    - path: backend_api/auth_admin
+    - path: backend_api/posts_forum
+    - path: backend_api/problems_oj

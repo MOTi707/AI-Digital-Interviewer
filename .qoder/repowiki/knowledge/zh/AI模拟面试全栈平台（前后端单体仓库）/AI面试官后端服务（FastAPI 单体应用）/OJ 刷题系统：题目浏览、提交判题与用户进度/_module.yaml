@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: backend_api/problems_oj
+title: OJ 刷题系统：题目浏览、提交判题与用户进度
+scope:
+    - backEnd/app/routers/problem.py
+    - backEnd/app/services/problem_service.py
+    - backEnd/app/schemas/problem.py
+source_files: []
+depends_on: []
+related_to:
+    - path: frontend_app/auth_profile_dashboard

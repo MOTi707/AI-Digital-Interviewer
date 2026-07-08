@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: build_system
+title: 构建与本地开发环境（前后端双工程）
+scope: []
+source_files:
+    - start.cmd
+    - backEnd/requirements.txt
+    - backEnd/alembic.ini
+    - frontEnd/package.json
+    - frontEnd/vite.config.ts
+depends_on: []
+related_to: []

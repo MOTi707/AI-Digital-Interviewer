@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: backend_api/auth_admin
+title: 用户认证与账户管理 API
+scope:
+    - backEnd/app/routers/auth.py
+    - backEnd/app/services/auth.py
+    - backEnd/app/schemas/auth.py
+source_files: []
+depends_on: []
+related_to:
+    - path: frontend_app/auth_profile_dashboard

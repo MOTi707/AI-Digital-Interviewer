@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: backend_api/tts_service
+title: TTS 语音合成、代码沙箱执行与管理员数据模型
+scope:
+    - backEnd/app/routers/tts.py
+    - backEnd/app/services/code_executor.py
+    - backEnd/app/schemas/admin.py
+source_files: []
+depends_on: []
+related_to:
+    - path: frontend_app/interview_session
+    - path: frontend_app/resume_optimize

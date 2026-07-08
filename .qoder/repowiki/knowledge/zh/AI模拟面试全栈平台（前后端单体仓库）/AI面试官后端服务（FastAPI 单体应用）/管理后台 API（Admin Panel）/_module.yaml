@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: backend_api/admin_panel
+title: 管理后台 API（Admin Panel）
+scope:
+    - backEnd/app/routers/admin.py
+    - backEnd/app/services/admin_service.py
+    - backEnd/app/dependencies.py
+source_files: []
+depends_on: []
+related_to:
+    - path: frontend_app/auth_profile_dashboard

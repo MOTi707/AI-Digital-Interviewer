@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: frontend_app/career_test
+title: 职业测评与AI岗位推荐
+scope:
+    - frontEnd/src/views/CareerTestView.vue
+    - frontEnd/src/views/CareerHistoryView.vue
+    - frontEnd/src/views/CareerResultView.vue
+    - frontEnd/src/stores/career.ts
+source_files: []
+depends_on: []
+related_to:
+    - path: backend_api/career_assessment

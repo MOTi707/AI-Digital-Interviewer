@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+@theme {
+  --color-memphis-coral: #ff006e;
+  --color-memphis-yellow: #ffbe0b;
+  --color-memphis-teal: #00f5d4;
+  --color-memphis-blue: #3a86ff;
+  --color-memphis-purple: #8338ec;
+  --color-memphis-orange: #fb5607;
+  --color-memphis-cream: #fef9ef;
+  --color-memphis-black: #000000;
+  --color-memphis-white: #ffffff;
+
+  --font-sans: 'Noto Sans SC', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+}
+
+/* Memphis 风格全局样式 */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  background-color: #fef9ef;
+  color: #000000;
+}
+
+/* Memphis 风格装饰背景 */
+.memphis-dot-bg {
+  background-image: radial-gradient(circle, #000 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.memphis-grid-bg {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.memphis-zigzag {
+  background: linear-gradient(135deg, #ff006e 25%, transparent 25%) -14px 0,
+    linear-gradient(225deg, #ff006e 25%, transparent 25%) -14px 0,
+    linear-gradient(315deg, #ff006e 25%, transparent 25%),
+    linear-gradient(45deg, #ff006e 25%, transparent 25%);
+  background-size: 28px 28px;
+  background-color: #ffbe0b;
+}
+
+/* Memphis 组件样式 */
+.memphis-btn-primary {
+  border: 4px solid #000;
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1);
+  font-weight: 900;
+  border-radius: 0;
+  transition: all 0.2s;
+}
+
+.memphis-btn-primary:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.memphis-btn-primary:active {
+  transform: translate(5px, 5px);
+}
+
+.memphis-card {
+  border: 4px solid #000;
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1);
+  background-color: #fef9ef;
+  border-radius: 0;
+}
+
+.memphis-input {
+  border: 4px solid #000;
+  border-radius: 0;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.memphis-input:focus {
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1);
+  outline: none;
+}
+
+/* ==============================
+   Memphis 风格全局自定义滚动条
+   ============================== */
+
+/* --- 滚动条整体 --- */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* --- 轨道（背景） --- */
+::-webkit-scrollbar-track {
+  background: #fef9ef;
+  border-left: 1px solid #000;
+}
+
+/* --- 滑块 --- */
+::-webkit-scrollbar-thumb {
+  background: #ff006e;
+  border: 1px solid #000;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a86ff;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #ffbe0b;
+}
+
+/* --- 滚动条角落（横竖交汇处） --- */
+::-webkit-scrollbar-corner {
+  background: #000;
+}
+
+/* --- 横向滚动条轨道（边线在顶部） --- */
+::-webkit-scrollbar-track:horizontal {
+  border-left: none;
+  border-top: 1px solid #000;
+}
+
+/* --- Firefox 支持（提高优先级，放在最后） --- */
+*,
+*::before,
+*::after {
+  scrollbar-width: thin;
+  scrollbar-color: #ff006e #fef9ef;
+}
+
+/* 弹窗淡入淡出过渡 */
+.modal-fade-enter-active,
+.modal-fade-leave-active {
+  transition: opacity 0.25s ease;
+}
+.modal-fade-enter-from,
+.modal-fade-leave-to {
+  opacity: 0;
+}

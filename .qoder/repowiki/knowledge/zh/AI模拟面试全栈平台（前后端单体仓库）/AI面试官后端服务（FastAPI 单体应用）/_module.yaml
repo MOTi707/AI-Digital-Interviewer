@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: backend_api
+title: AI面试官后端服务（FastAPI 单体应用）
+scope:
+    - backEnd/
+source_files: []
+depends_on: []
+related_to: []
