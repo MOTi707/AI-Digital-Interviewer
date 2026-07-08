@@ -8,6 +8,12 @@
 
 **AI面试官**是一个面向求职者的全栈 Web 应用，通过集成大语言模型（DeepSeek）、语音合成（Edge-TTS）与语音识别（讯飞语音听写）等 AI 能力，为用户提供高度仿真的面试训练体验。系统支持多轮面试流程模拟，从综合素质测评到技术面、业务面再到 AI 语音面试，覆盖了真实求职面试的完整链路。同时内置在线编程练习（OJ）、职业性格测评（MBTI / 霍兰德）、AI 简历优化以及面经分享社区，构建了一个功能闭环的求职准备生态。
 
+<img width="483" height="235" alt="image" src="https://github.com/user-attachments/assets/4357232c-a5f0-4432-8aa8-5a4a84cea4d1" />
+<img width="901" height="1285" alt="image" src="https://github.com/user-attachments/assets/f108a839-47f6-43d6-983a-6b35d41f0512" />
+<img width="901" height="1285" alt="image" src="https://github.com/user-attachments/assets/6298fe39-715a-461a-8c67-3559632be04d" />
+
+
+
 ---
 
 # ⚠️ 部分代码已经删除，严禁学校项目或实训抄袭使用
